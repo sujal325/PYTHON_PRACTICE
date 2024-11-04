@@ -1,7 +1,8 @@
-def sum_digits():
-    list1= [1,2,3,4,5,6,7]
-    sum=0
-    for i in list1:
-        sum+=i
-    print(sum)       
-sum_digits()
+def sum(value):
+    num = 0
+    for i in range(1, value + 1):
+        num += i
+    print(num)
+
+
+sum(100)
